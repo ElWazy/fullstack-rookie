@@ -8,6 +8,12 @@ get_productos = extend_schema(
     tags=["Productos"],
 )
 
+get_productos2 = extend_schema(
+    description="Saludo",
+    summary="Saludo",
+    tags=["Productos"],
+)
+
 post_producto = extend_schema(
     description="Crear producto",
     summary="Crear producto",
