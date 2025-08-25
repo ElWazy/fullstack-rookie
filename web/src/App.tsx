@@ -1,3 +1,4 @@
+import { Saludo } from './components/Saludo';
 import { ListaProductos } from './components/ListaProductos';
 import { CrearProducto } from './components/CrearProducto';
 import { Carrito } from './components/Carrito';
@@ -8,8 +9,10 @@ function App() {
     <>
       <h1>Tienda Atheris</h1>
 
-      <ListaProductos /> <CrearProducto /> <Carrito />
-      
+      <Saludo />
+      <ListaProductos />
+      <CrearProducto />
+      <Carrito />
     </>
   )
 }
