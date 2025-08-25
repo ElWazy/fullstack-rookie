@@ -29,7 +29,7 @@ export function CrearProducto() {
           <input type="number" id="precio" name="precio" />
         </div>
         <div>
-          <button type="submit">Crear</button>
+          <button type="submit" style={{display:'block'}}>Crear</button>
         </div>
       </form>
     </div>

@@ -1,13 +1,15 @@
 import { ListaProductos } from './components/ListaProductos';
 import { CrearProducto } from './components/CrearProducto';
-
+import { Carrito } from './components/Carrito';
+import './index.css';
 function App() {
 
   return (
     <>
-      <h1>Tienda</h1>
-      <ListaProductos />
-      <CrearProducto />
+      <h1>Tienda Atheris</h1>
+
+      <ListaProductos /> <CrearProducto /> <Carrito />
+      
     </>
   )
 }
