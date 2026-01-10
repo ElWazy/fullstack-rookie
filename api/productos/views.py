@@ -18,12 +18,11 @@ def get_productos(request):
         data={"productos": response_serializer.data}, status=status.HTTP_200_OK
     )
 
+
 @docs.get_productos2
 @api_view(["GET"])
 def get_productos2(request):
-    return Response(
-        data={"mensaje":" Holaaa"},status=status.HTTP_200_OK
-    )
+    return Response(data={"mensaje": " Holaaa"}, status=status.HTTP_200_OK)
 
 
 @docs.post_producto
